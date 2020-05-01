@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "d5eb851d-682d-436d-b03a-27c1aaddb26f",
+    "appType": "app",
+    "appDisplayName": "MTD",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MTD"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.0"
+  }
+}

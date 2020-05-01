@@ -1,0 +1,129 @@
+<svg>
+  <!-- Define a reusable tile to display a bus -->
+  <symbol id="tile-bus" focusable="false" pointer-events="visible"
+  system-events="all">
+    <rect id="line-background" height="100%" width="100%" fill="blue" />
+
+    <!-- line1: destination of the bus -->
+    <text id="destination" font-size="40" x="5" y="40" fill="white">Name</text>
+
+    <!-- line 2: time in minutes and istop icon -->
+    <text id="minutes"  x="5"   y="78" font-size="30" fill="white">00 minutes</text>
+
+    <use id="istop" href="#static-image" x="100%-40" y="100%-40" height="32"
+    width="32">
+      <set href="image" attributeName="href" to="iStop.png"/>
+    </use>
+
+    <rect id="tile-divider-bottom" height="2" />
+  </symbol>
+  <symbol id="button">
+    <rect id="b" height="100%" width="100%" fill="black" />
+    <use id="mybutton" href="#square-button" y="5" fill="fb-blue">
+      <set href="#text" attributeName="text-buffer" to="abcdefghijklmnop" />
+      <set href="#text" attributeName="y" to="75%" />
+    </use>
+    <rect id="tile-divider-bottom" height="2" />
+  </symbol>
+  
+  <use id="busList" href="#tile-list" height="100%" width="100%">
+    
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+    <use id="bus-0" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-1" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-2" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-3" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-4" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-5" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-6" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-7" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-8" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-9" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-10" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-11" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-12" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-13" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-14" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-15" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-16" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-17" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-18" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+    <use id="bus-19" href="#tile-list-item" class="item">
+      <use href="#tile-bus" />
+    </use>
+  </use>
+  
+  <textarea id="status" class="status" pointer-events="none">status message to be displayed
+  here</textarea>
+  <use id="buttons" href="#tile-list" height="100%" width="100%">
+    
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+    <use id="button-1" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-2" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-3" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-4" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-5" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-6" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-7" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-8" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+    <use id="button-9" href="#tile-list-item" class="item">
+      <use href="#button" />
+    </use>
+  </use>
+</svg>
