@@ -10,6 +10,9 @@ You can download the latest version of the app [here](https://gallery.fitbit.com
 
 Add up to 9 favorite bus stops from the Fitbit app, and access real-time departure data for those stops on your Fitbit smartwatch.
 
+![menu screenshot](screenshots/menu.png "Choose a stop")
+![departures screenshot](screenshots/departures.png "View departures")
+
 ## Notes
 
 If you would like to work with this code, please request a CUMTD API token [here](https://developer.cumtd.com/) (it's fast and easy!).
