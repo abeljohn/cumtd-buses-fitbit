@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# CUMTD Buses
 
-You can use the [editor on GitHub](https://github.com/abeljohn/cumtd-buses-fitbit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Fitbit app (Ionic and Versa family) to show departure times of Champaign-Urbana MTD buses
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Download
 
-### Markdown
+You can download the latest version of the app [here](https://gallery.fitbit.com/details/d5eb851d-682d-436d-b03a-27c1aaddb26f).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+Add up to 9 favorite bus stops from the Fitbit app, and access real-time departure data for those stops on your Fitbit smartwatch.
 
-# Header 1
-## Header 2
-### Header 3
+## Notes
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abeljohn/cumtd-buses-fitbit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you would like to work with this code, please request a CUMTD API token [here](https://developer.cumtd.com/) (it's fast and easy!).
