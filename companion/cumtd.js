@@ -4,7 +4,7 @@ export function CUMTDAPI(apiKey) {
   }
   else {
     /* NOTE: you'll need to provide your own API key */
-    this.apiKey = /* go to developer.cumtd.com to register for a key */;
+    this.apiKey = "insert your key here" /* go to developer.cumtd.com to register for a key */;
   }
 };
 CUMTDAPI.prototype.realTimeDepartures = function(origin) {
