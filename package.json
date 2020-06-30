@@ -2,7 +2,7 @@
   "fitbit": {
     "appUUID": "d5eb851d-682d-436d-b03a-27c1aaddb26f",
     "appType": "app",
-    "appDisplayName": "MTD",
+    "appDisplayName": "CUMTD Buses",
     "iconFile": "resources/icon.png",
     "wipeColor": "#00bcd4",
     "requestedPermissions": [
@@ -17,7 +17,7 @@
     ],
     "i18n": {
       "en": {
-        "name": "MTD"
+        "name": "CUMTD Buses"
       }
     },
     "defaultLanguage": "en-US"
