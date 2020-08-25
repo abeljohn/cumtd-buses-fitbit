@@ -15,4 +15,4 @@ Add up to 9 favorite bus stops from the Fitbit app, and access real-time departu
 
 ## Notes
 
-If you would like to work with this code, please request a CUMTD API token [here](https://developer.cumtd.com/) (it's fast and easy!).
+If you would like to work with this code, please request a CUMTD API token [here](https://developer.cumtd.com/) (it's fast and easy!). The API token goes in companion/cumtd.js
