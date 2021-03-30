@@ -1,4 +1,5 @@
 {
+  "private": true,
   "fitbit": {
     "appUUID": "d5eb851d-682d-436d-b03a-27c1aaddb26f",
     "appType": "app",
@@ -23,7 +24,10 @@
     "defaultLanguage": "en-US"
   },
   "devDependencies": {
-    "@fitbit/sdk": "~4.0.0",
-    "@fitbit/sdk-cli": "^1.7.0"
+    "@fitbit/sdk": "~4.2.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
